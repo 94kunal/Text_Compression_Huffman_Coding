@@ -150,7 +150,7 @@ class HuffmanCoding:
         return
 
 
-path = "C:/Users/uif35996/Documents/Sample.txt"
+path = "C:/Users/Username/Documents/Sample.txt"
 HuffmanCoding_obj = HuffmanCoding(path)
 outputpath = HuffmanCoding_obj.compress()
 HuffmanCoding_obj.decompress(outputpath)
